@@ -1,0 +1,24 @@
+/*  Rounded card for every FAQ  */
+.faqItem {
+  border-radius: 20px;
+  background: #d4c3f5;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/*  Gradient card – give this only to the first item  */
+.faqItem--gradient {
+  background: linear-gradient(90deg,#ff6b6b,#ffd93d,#6bcb77);
+}
+
+.faqQuestion {
+  font: 600 18px/1.3 "Poppins", sans-serif;
+  color: #4b0082;
+  cursor: pointer;
+}
+
+.faqAnswer {
+  font: 400 15px/1.6 "Poppins", sans-serif;
+  color: #333;
+  margin-top: 10px;
+}
