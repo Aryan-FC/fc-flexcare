@@ -1,3 +1,6 @@
+/** 
+ * @public
+ */
 import { ok, badRequest } from 'wix-http-functions';
 import { setGuestlist } from 'backend/gatherAPICalls.js';
 
@@ -6,6 +9,9 @@ export async function post_set_guestlist(request) {
     const body = await request.body.json();
     const email = body.email;
     const name = body.name;
+
+    console.log("Received request");
+    console.log("Body:", body);
 
     await setGuestlist(email, name);
     return ok({ body: { success: true } });

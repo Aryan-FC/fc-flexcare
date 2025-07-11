@@ -6,3 +6,5 @@ axios.default.post("https://api.gather.town/api/setEmailGuestlist", {
   guestlist: {"firstcontact.lgbtq@gmail.com ":{"name":"FC","affiliation":"test","role":"admin"}},
   overwrite: true,
 })
+
+console.log('Done')
