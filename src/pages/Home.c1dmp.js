@@ -1,5 +1,5 @@
 import wixData from 'wix-data';
-import '../public/styles.css';
+import '../styles.css';
 
 
 $w.onReady(function () {
